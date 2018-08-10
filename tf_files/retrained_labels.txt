@@ -1,0 +1,30 @@
+antelope
+bat
+beaver
+bobcat
+buffalo
+chihuahua
+chimpanzee
+collie
+dalmatian
+german shepherd
+grizzly bear
+hippopotamus
+horse
+killer whale
+mole
+moose
+mouse
+otter
+ox
+persian cat
+raccoon
+rat
+rhinoceros
+seal
+siamese cat
+spider monkey
+squirrel
+walrus
+weasel
+wolf
