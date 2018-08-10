@@ -2,6 +2,16 @@
 
 Deep Learning Animal Classification using TensorFlow
 
+Deep Learning - Beginner Challenge from HackerEarth (https://www.hackerearth.com/challenge/competitive/deep-learning-beginner-challenge/)
+
+## Identify the Animal
+
+### Problem Statement
+
+Wildlife images captured in a field represent a challenging task while classifying animals since they appear with a different pose, cluttered background, different light and climate conditions, different viewpoints, and occlusions. Additionally, animals of different classes look similar. All these challenges necessitate an efficient algorithm for classification.
+
+In this challenge, you will be given 19,000 images of 30 different animal species. Given the image of the animal, your task is to predict the probability for every animal class. The animal class with the highest probability means that the image belongs to that animal class.
+
 I am using TensorFlow to do image classification
 here is the Blog and which i learned https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 
@@ -19,7 +29,7 @@ Then for training following command
 set IMAGE_SIZE=224
 set ARCHITECTURE=mobilenet_1.0_%IMAGE_SIZE%
 
-## CNN  i am using is Mobilenet_1.0_224
+For CNN iam using is Mobilenet_1.0_224
 
 python -m scripts.retrain --bottleneck_dir=tf_files/bottlenecks --model_dir=tf_files/models/ --summaries_dir=tf_files/training_summaries/"%ARCHITECTURE%" --output_graph=tf_files/retrained_graph.pb --output_labels=tf_files/retrained_labels.txt  --architecture="%ARCHITECTURE%" --how_many_training_steps 500 --image_dir=tf_files/animals
 
